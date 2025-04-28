@@ -1,54 +1,42 @@
-# 🚀 Asteroid Taxonomy: Unveiling the Dynamics of Near-Earth Objects
+Asteroid Taxonomy is a data-driven exploration where space science meets statistical analysis. This project focuses on NASA’s Near-Earth Object (NEO) dataset to investigate the behaviors, potential risks, and defining characteristics of asteroids that approach Earth's vicinity.
 
-Welcome to **Asteroid Taxonomy** — a deep dive into real space data where data science meets astronomy. In this project, I explored NASA's Near-Earth Object (NEO) dataset to better understand the behavior, risks, and characteristics of asteroids that venture uncomfortably close to Earth.
+Project Overview
+This project utilizes the NASA NEO dataset to:
 
----
+Analyze critical features such as estimated diameter, relative velocity, miss distance, and orbital elements.
 
-## 🌌 Project Overview
+Identify trends, patterns, and anomalies through detailed Exploratory Data Analysis (EDA).
 
-This project leverages NASA's NEO dataset to:
-- Analyze critical attributes like estimated diameter, relative velocity, miss distance, and orbital elements.
-- Identify trends, patterns, and outliers using Exploratory Data Analysis (EDA).
-- Evaluate potential risks of NEOs and reveal meaningful insights into their behavior.
-- Perform hypothesis testing (Z-test, T-test) for deeper statistical insights.
+Assess the potential risks associated with NEOs and derive meaningful insights into their behavior.
 
----
+Perform hypothesis testing, including Z-tests and T-tests, for deeper statistical evaluation.
 
-## 🔍 Data Source
+Data Source
+The dataset was obtained from NASA's Near-Earth Object Web Service (NeoWs), which provides comprehensive information about asteroids and comets with orbits that bring them close to Earth.
 
-The dataset was sourced from [NASA's Near-Earth Object Web Service (NeoWs)](https://api.nasa.gov/), which provides detailed information on asteroids and comets whose orbits bring them close to Earth's orbit.
+Tools and Technologies
+Python (3.x)
 
----
+Pandas — Data manipulation and preprocessing
 
-## 🛠️ Tools & Technologies
+NumPy — Numerical computations
 
-- **Python** (3.x)
-- **Pandas** – Data manipulation and preprocessing
-- **NumPy** – Numerical computations
-- **Matplotlib** & **Seaborn** – Data visualization
-- **SciPy / Statsmodels** – Hypothesis testing and statistical analysis
-- **Jupyter Notebook** – Interactive data analysis
+Matplotlib and Seaborn — Data visualization
 
----
+SciPy and Statsmodels — Hypothesis testing and statistical analysis
 
-## 📊 Key Features
+Jupyter Notebook — Interactive environment for data analysis
 
-- ✅ **Robust Data Cleaning**: Removed inconsistencies and null values to preserve data integrity.
-- ✅ **Descriptive Analytics**: Summary statistics to understand distribution and central tendencies.
-- ✅ **Visual EDA**: Insightful plots (histograms, scatterplots, KDEs, heatmaps) to detect correlations and trends.
-- ✅ **Outlier Detection**: Pinpointed anomalies in asteroid size, speed, and distance.
-- ✅ **Statistical Testing**: Applied Z-tests and T-tests to test hypotheses on asteroid characteristics.
-- ✅ **Asteroid Classification**: Grouped NEOs based on statistical behavior and orbital features.
+Key Features
+Data Cleaning: Addressed inconsistencies and handled missing values to ensure data quality.
 
----
+Descriptive Analytics: Generated summary statistics to understand data distribution and central tendencies.
 
-## 📷 Sample Visuals
+Visual Exploratory Data Analysis: Developed visualizations such as histograms, scatter plots, kernel density estimates (KDEs), and heatmaps to uncover relationships and trends.
 
-![Sample Plot](images/sample_plot.png)
+Outlier Detection: Identified anomalies in asteroid size, velocity, and proximity to Earth.
 
-> *Example: Relative Velocity vs Miss Distance – Highlighting potentially hazardous asteroids.*
+Statistical Testing: Conducted Z-tests and T-tests to validate hypotheses regarding asteroid characteristics.
 
----
-
-## 📁 Project Structure
+Asteroid Classification: Grouped NEOs based on statistical patterns and orbital features.
 
