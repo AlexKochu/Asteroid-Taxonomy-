@@ -1,43 +1,42 @@
-Asteroid Taxonomy: A Data-Driven Study of Near-Earth Object Dynamics
-Asteroid Taxonomy is a comprehensive analytical project situated at the intersection of space science and data analytics. This study systematically investigates NASA’s Near-Earth Object (NEO) dataset to understand the behavioural patterns, associated risks, and defining characteristics of asteroids that pass close to Earth's orbital trajectory.
+Asteroid Taxonomy: A Quantitative Analysis of Near-Earth Object Characteristics
+Asteroid Taxonomy is an advanced analytical investigation at the convergence of astronomical data and statistical methodology. The project delves into NASA's Near-Earth Object (NEO) dataset, providing an in-depth exploration of the behaviour, potential threats, and defining characteristics of asteroids that approach Earth's orbit.
 
 Project Overview
-The principal aims of this project are:
+This study leverages the NEO dataset to:
 
-To conduct an in-depth analysis of key attributes, including estimated diameter, relative velocity, miss distance, and orbital parameters.
+Conduct a detailed analysis of critical attributes such as estimated diameter, relative velocity, miss distance, and orbital parameters.
 
-To uncover trends, structural patterns, and anomalies through extensive Exploratory Data Analysis (EDA).
+Identify significant trends, patterns, and anomalies through thorough Exploratory Data Analysis (EDA).
 
-To assess potential risks posed by NEOs and derive substantive insights into their physical and orbital behaviours.
+Assess the potential risks associated with NEOs and extract key insights into their movement and characteristics.
 
-To apply robust statistical methodologies, such as Z-tests and T-tests, to validate data-driven hypotheses.
+Implement statistical hypothesis testing, including Z-tests and T-tests, to rigorously evaluate hypotheses based on the data.
 
 Data Source
-The dataset was sourced from NASA’s Near-Earth Object Web Service (NeoWs), an official repository providing detailed information on asteroids and comets whose orbital paths bring them into proximity with Earth.
+The dataset for this study was sourced from NASA's Near-Earth Object Web Service (NeoWs), a comprehensive platform that offers detailed information on asteroids and comets with orbits that intersect Earth’s vicinity.
 
 Tools and Technologies
-Python (3.x) — Primary programming environment
+Python (3.x) — The primary programming language for analysis
 
-Pandas — Advanced data manipulation and preprocessing
+Pandas — For data manipulation, cleaning, and transformation
 
-NumPy — Numerical computations and mathematical operations
+NumPy — For high-level numerical operations and array processing
 
-Matplotlib and Seaborn — Graphical and statistical data visualisation
+Matplotlib and Seaborn — For data visualisation and graphical analysis
 
-SciPy and Statsmodels — Statistical analysis and hypothesis testing
+SciPy and Statsmodels — For statistical modelling and hypothesis testing
 
-Jupyter Notebook — Interactive environment for exploratory programming and analysis
+Jupyter Notebook — An interactive environment for running and documenting analyses
 
 Key Features
-Data Cleaning and Integrity Assurance: Resolved inconsistencies and addressed missing values to ensure the reliability of the dataset.
+Data Preprocessing: Thorough cleaning and preparation of the dataset, including the treatment of missing values and outlier detection, ensuring analytical robustness.
 
-Descriptive Statistical Analysis: Generated comprehensive summary statistics to elucidate distributions, central tendencies, and variances within the data.
+Descriptive Statistics: Calculation of summary statistics to characterise data distributions, central tendencies, and deviations.
 
-Visual Exploratory Data Analysis: Produced a series of sophisticated visualisations, including histograms, scatter plots, kernel density estimations, and correlation heatmaps, to reveal underlying patterns and relationships.
+Exploratory Data Analysis (EDA): A comprehensive suite of visualisations—such as histograms, scatter plots, kernel density plots, and heatmaps—designed to uncover correlations, trends, and anomalies in the dataset.
 
-Outlier Detection and Analysis: Identified and examined anomalous data points in asteroid size, velocity, and approach distance.
+Outlier Detection: Identification and analysis of extreme values in asteroid size, velocity, and proximity to Earth, to better understand atypical NEOs.
 
-Formal Hypothesis Testing: Conducted statistical tests (Z-tests and T-tests) to confirm or refute hypotheses concerning the properties of NEOs.
+Statistical Inference: Application of hypothesis testing (Z-tests and T-tests) to validate assumptions regarding the characteristics of NEOs.
 
-Asteroid Classification Scheme: Categorised Near-Earth Objects based on statistical attributes and orbital dynamics to facilitate structured risk assessment and scientific interpretation.
-
+Asteroid Classification: Categorisation of NEOs based on key statistical features and orbital parameters, allowing for more precise risk assessment.
